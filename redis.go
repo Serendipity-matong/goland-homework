@@ -20,7 +20,7 @@ type Store struct {
 	//string：表示键的类型是字符串。
 	//string：表示值的类型也是字符串。
 	mu   sync.RWMutex
-	sets map[string]map[stri ng]bool
+	sets map[string]map[string]bool
 	//user map[string]User
 }
 type KeyValue struct {
